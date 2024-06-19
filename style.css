@@ -1,11 +1,11 @@
 .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .item {
     padding: 30px;
-    flex-wrap: wrap;
 }
 
 .item:hover {
