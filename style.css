@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.item:hover {
+    text-decoration: underline red solid ;
+    cursor: pointer;
+}
+
+.genre {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+
+}
+
+#searchInput {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 6px;
+    width: 40%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    &::before,
+    &::after {
+      display: inline-block;
+      content: "";
+      border-top: .1rem solid grey;
+      width: 25rem;
+      margin: 0 1rem;
+      transform: translateY(-0.5rem);
+    }
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+span {
+    color: rgb(51, 155, 51);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
