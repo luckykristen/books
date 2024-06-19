@@ -84,3 +84,35 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
+@media all and (max-width: 1000px) {
+    h3 {
+        &::before,
+        &::after {
+            width: 10rem;
+        }
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h3 {
+        &::before,
+        &::after {
+            width: 4rem;
+        }
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #searchInput {
+        font-size: 15px;
+    }
+}
